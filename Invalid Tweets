@@ -16,8 +16,6 @@ Return the result table in any order.
 
 The result format is in the following example.
 
- 
-
 Example 1:
 
 Input: 
@@ -38,10 +36,12 @@ Explanation:
 Tweet 1 has length = 14. It is a valid tweet.
 Tweet 2 has length = 32. It is an invalid tweet.
 
-
 ------------------------------------------------------------------
 Solutions: 
 # Write your MySQL query statement below
 
   select tweet_id from Tweets
   where length(content) > 15 
+
+
+
